@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);
+  background-size: 2em 2em;
+  background-color: #232323;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conversion {
+  height: 500px;
+  width: 750px;
+  background-color: #00ffff;
+  position: absolute;
+  left: 35%;
+  bottom: 25%;
+  box-shadow: 20px 20px 50px black;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 8%;
+}
+
+.error {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #ec4646;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input_label {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+.output {
+  margin-bottom: 20%;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  display: block;
+}
